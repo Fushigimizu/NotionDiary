@@ -36,7 +36,7 @@ class UIFrame_main ( wx.Frame ):
 
 		bSizer13.Add( self.bodyLabel, 0, wx.ALL, 5 )
 
-		self.bodyBox = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 500,250 ), wx.TE_MULTILINE )
+		self.bodyBox = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 500,250 ), 0 )
 		bSizer13.Add( self.bodyBox, 0, wx.ALL, 5 )
 
 		fgSizer7 = wx.FlexGridSizer( 0, 2, 0, 0 )
