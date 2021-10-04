@@ -19,9 +19,11 @@ class NotionDiaryUIFrame_main_edit(NotionDiaryUIFrame_main):
 	# Handlers for UIFrame1 events.
 	def SendOnButtonClick(self, event):
 		# TODO: Implement SendOnButtonClick
+		sending = self.sendingText.SetLabel("Sending……")
 		txt = self.bodyBox.GetValue()
 		title = self.titleBox.GetValue()
 		core.send(title, txt)
+		sending = self.sendingText.SetLabel("Sending…… Complete")
 
 	def ConfigOnButtonClick(self, event):
 		# TODO: Implement ConfigOnButtonClick
@@ -29,6 +31,3 @@ class NotionDiaryUIFrame_main_edit(NotionDiaryUIFrame_main):
 		frame = NotionDiaryUIFrame_Config_edit(None)
 		frame.Show(True)
 		app.MainLoop()
-
-
-# https://naonaorange.hatenablog.com/entry/2019/08/15/170656

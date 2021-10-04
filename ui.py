@@ -39,7 +39,7 @@ class UIFrame_main ( wx.Frame ):
 		self.bodyBox = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size( 500,250 ), 0 )
 		bSizer13.Add( self.bodyBox, 0, wx.ALL, 5 )
 
-		fgSizer7 = wx.FlexGridSizer( 0, 2, 0, 0 )
+		fgSizer7 = wx.FlexGridSizer( 2, 2, 0, 0 )
 		fgSizer7.SetFlexibleDirection( wx.BOTH )
 		fgSizer7.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
@@ -48,6 +48,11 @@ class UIFrame_main ( wx.Frame ):
 
 		self.configButton = wx.Button( self, wx.ID_ANY, u"Config", wx.DefaultPosition, wx.DefaultSize, 0 )
 		fgSizer7.Add( self.configButton, 0, wx.ALL, 5 )
+
+		self.sendingText = wx.StaticText( self, wx.ID_ANY, u"To Send, Click \"Send\" Button", wx.Point( -1,-1 ), wx.DefaultSize, 0 )
+		self.sendingText.Wrap( -1 )
+
+		fgSizer7.Add( self.sendingText, 0, wx.ALL, 5 )
 
 
 		bSizer13.Add( fgSizer7, 1, wx.EXPAND, 5 )
