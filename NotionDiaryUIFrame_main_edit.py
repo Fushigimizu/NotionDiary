@@ -24,6 +24,7 @@ class NotionDiaryUIFrame_main_edit(NotionDiaryUIFrame_main):
 		title = self.titleBox.GetValue()
 		core.send(title, txt)
 		sending = self.sendingText.SetLabel("Sending…… Complete")
+		self.bodyBox.SetValue("")
 
 	def ConfigOnButtonClick(self, event):
 		# TODO: Implement ConfigOnButtonClick
