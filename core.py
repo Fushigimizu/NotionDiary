@@ -7,8 +7,6 @@ DATABASE_ID = ""
 PROPERTY = "" """
 
 # 検索
-# 検索結果を保存しておけないか？
-# property は初回にデータベースのデータを読み込んで設定？
 def search(conf, title):
     """search target page in database
 
@@ -116,7 +114,6 @@ def write(conf, id, content):
 
 
 def send(title, content):
-    # 名称要検討
     try:
         with open("config", "r") as f:
             conf = json.load(f)
