@@ -1,6 +1,7 @@
 # NotionDiary
 Notionに随時記録をつけることを目的としたソフトウェアです。
-Windows版の実行ファイルもあります。
+
+Windows版の実行ファイル(NotionDiary.exe)もあります。
 
 # 簡単な使い方
 初めに、"Config"を開き、認証情報を入力します。
@@ -35,6 +36,9 @@ Database IDで指定したデータベースにおいて、ページ名が表示
 なお、使用にはNotion側でintegrationの作成とデータベースへの設定が必要です。
 以下のページのStep1,Step2に従って設定してください。
 https://developers.notion.com/docs
+
+# ファイル構成
+工事中
 
 # 使用ライブラリ
 - WxPython (ライセンス:https://www.wxpython.org/pages/license/)
