@@ -1,5 +1,6 @@
 # NotionDiary
-Notionに逐次的な記録をつけることを目的としたソフトウェアです。
+Notionに随時記録をつけることを目的としたソフトウェアです。
+Windows版の実行ファイルもあります。
 
 # 簡単な使い方
 初めに、"Config"を開き、認証情報を入力します。
@@ -37,4 +38,6 @@ https://developers.notion.com/docs
 
 # 使用ライブラリ
 - WxPython (ライセンス:https://www.wxpython.org/pages/license/)
-- Request (ライセンス: http://www.apache.org/licenses/LICENSE-2.0)
+- Requests (ライセンス: http://www.apache.org/licenses/LICENSE-2.0)
+
+実行ファイルはPyInstallerで作成しています。
