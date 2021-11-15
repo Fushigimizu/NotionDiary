@@ -27,7 +27,7 @@ NotionのInternal Integration Tokenを入力します。
 ### Database ID
 保存先ページが格納されるデータベースのIDを入力します。
 
-### Property Namw
+### Property Nam
 Database IDで指定したデータベースにおいて、ページ名が表示されるプロパティの名前を入力します。
 
 ### Insert timestamp before text
